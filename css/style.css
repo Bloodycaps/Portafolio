@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Arimo", sans-serif;
+  background-image: ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+  width: 100%;
+  height: 6rem;
+  background-color: #8C031C;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .main-navbar{
+    padding: 1.5rem;
+    
+}
+
+header .main-navbar .main-navbar-logo{
+    
+}
+
+header .main-navbar .navbar-right-section {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+}
+
+.main-navbar .navbar-right-section a {
+    text-decoration: none;
+    cursor: pointer;
+    margin: 1rem;
+}
