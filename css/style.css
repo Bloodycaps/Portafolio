@@ -11,18 +11,17 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Arimo", sans-serif;
-  background-image: ;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: #0d0d0d;
 }
 
 header {
   width: 100%;
-  height: 6rem;
-  background-color: #8C031C;
+  height: 7rem;
+  background-color: #8c031c;
 }
 
 header nav {
@@ -30,24 +29,76 @@ header nav {
   justify-content: space-between;
 }
 
-header .main-navbar{
-    padding: 1.5rem;
-    
+header .main-navbar {
+  padding: 1rem;
 }
 
-header .main-navbar .main-navbar-logo{
-    
+header .main-navbar .main-navbar-logo a {
+  display: flex;
+  align-items: center;
 }
 
-header .main-navbar .navbar-right-section {
+header .main-navbar .main-navbar-logo img {
+  width: 4.5rem;
+  height: auto;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+}
+header .main-navbar .main-navbar-logo h2 {
+  font-size: 2rem;
+  padding-left: 0.5rem;
+}
+
+header .main-navbar .navbar-center-section {
   display: flex;
   justify-content: center;
   list-style: none;
   align-items: center;
 }
 
-.main-navbar .navbar-right-section a {
-    text-decoration: none;
-    cursor: pointer;
-    margin: 1rem;
+.main-navbar .navbar-center-section a {
+  cursor: pointer;
+  margin: 1rem;
 }
+
+header .main-navbar .navbar-right-section {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+  }
+  header .main-navbar .navbar-right-section a{
+    margin-left: 0.5rem;
+  }
+
+main .home-section {
+  width: 100%;
+  height: 576px;
+  background: #260104 url(../img/drake-bg-big.jpg) center/ cover no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+main .home-section:before{
+    content: "";
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main .home-section .home-section-container {
+    position: relative;
+    color: #0d0d0d;
+    text-align: center;
+}
+
+
+
+
