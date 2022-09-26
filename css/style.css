@@ -128,7 +128,7 @@ header .main-navbar a {
 main {
   padding-top: 7rem;
 }
-/*
+
 .home-section {
   width: 100%;
   height: 604px;
@@ -147,15 +147,14 @@ main {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
 }
-*/
+
+
 
 main .home-section .home-section-container {
   position: relative;
   color: #0d0d0d;
   text-align: center;
-  z-index: -1;
 }
 main .home-section-container{
   padding-top: 3rem;
@@ -166,6 +165,11 @@ main .home-section-container{
 
 main .home-section-container .home-profile-img img{
   width: 12rem;
-  padding-bottom: 3rem;
+  height:12rem;
+  margin-bottom: 3rem;
   border-radius: 50%;
+}
+main .home-section-container p{
+  margin-top: 3rem;
+  font-size: 1.7rem;
 }
