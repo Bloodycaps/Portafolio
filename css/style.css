@@ -157,3 +157,15 @@ main .home-section .home-section-container {
   text-align: center;
   z-index: -1;
 }
+main .home-section-container{
+  padding-top: 3rem;
+  
+  align-items: center;
+
+}
+
+main .home-section-container .home-profile-img img{
+  width: 12rem;
+  padding-bottom: 3rem;
+  border-radius: 50%;
+}
