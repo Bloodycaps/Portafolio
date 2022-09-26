@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS para mobile-->
     <link rel="stylesheet" href="./css/style.css" />
+
+    <!--CSS para tablet-->
+    <link
+      rel="stylesheet"
+      media=" screen and (min-width: 425px)"
+      href="./css/tablet.css"
+    />
+
+    <!--CSS para desktop-->
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 768px)"
+      href="./css/desktop.css"
+    />
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +41,7 @@
   </head>
   <body>
     <header>
-      <nav class="main-navbar">
+      <nav id="" class="main-navbar">
         <picture class="main-navbar-logo">
           <a href="">
             <img src="./img/Logo.jpeg" alt="Logo" />
@@ -35,14 +51,14 @@
         <button class="nav-toggle">
           <i class="fa-solid fa-bars"></i>
         </button>
-        <div class="nav-menu nav-menu_active">
+        <div id="nav-menu" class="nav-menu">
           <ul class="navbar-center-section">
-            <li class="nav-item nav-item_active"><a href="">Home</a></li>
-            <li class="nav-item"><a href="">About</a></li>
+            <li class="nav-item nav-item_active"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
             <li class="nav-item"><a href="">Projects</a></li>
             <li class="nav-item"><a href="">Blog</a></li>
           </ul>
-  
+
           <ul class="navbar-right-section">
             <li>
               <a href=""><i class="fa-brands fa-instagram"></i></a>
@@ -61,22 +77,58 @@
       </nav>
     </header>
     <main>
-      <section class="home-section">
+      <section id="home" class="home-section">
         <div class="home-section-container">
+          <picture>
+            <img src="" alt="">
+          </picture>
           <h1>Danilo Cortes</h1>
-          <h2>I'm a FullStack Developer</h2>
+          <h2>I'm Backend Developer</h2>
           <br />
           <a href="#about"><i class="fa-solid fa-angle-down"></i></a>
         </div>
       </section>
       <section id="about">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Exercitationem facere maxime praesentium officia, error molestias
-          quaerat autem ipsa numquam consequatur nihil consequuntur ipsum
-          incidunt ullam, accusantium maiores eaque at nemo?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          explicabo consequuntur vero officiis enim. Culpa reprehenderit
+          voluptates, exercitationem architecto consequatur sunt itaque neque,
+          nulla voluptatibus tempore minus a dolor maiores? Dignissimos eum
+          voluptatibus sed quae id est recusandae. Distinctio recusandae fuga
+          voluptatem dignissimos corporis doloribus, deleniti atque, sint optio
+          molestias facilis. Delectus repellat, similique dicta iure vero
+          ratione sequi animi? Aspernatur repellat numquam illum molestiae
+          voluptates doloremque eius nobis perferendis odio, quam fuga fugit
+          assumenda velit magni iure repudiandae voluptate nam distinctio ipsa
+          minus? Explicabo quas inventore nesciunt sunt nemo! Repellat magnam
+          officia alias corrupti exercitationem est nisi nesciunt veritatis modi
+          facilis dolorum odio aut enim cupiditate cumque inventore error, non
+          unde voluptates sit nemo laborum quisquam? Fuga, cupiditate sit. Ex,
+          reiciendis sed eligendi sit dicta facere deleniti deserunt quos ullam
+          id dignissimos rerum, rem suscipit necessitatibus saepe sequi? Aliquid
+          perspiciatis ipsam maxime voluptatibus dolor esse cumque maiores
+          provident minima. Modi provident corrupti nostrum ipsam harum, facilis
+          praesentium soluta voluptate omnis id iusto molestias. Alias
+          repudiandae vero nihil! Illo facilis quia quae architecto quidem! Hic
+          natus modi voluptatum dolores asperiores! Sed esse, nulla, neque
+          quibusdam laboriosam aliquid officia beatae, earum consectetur quam
+          dicta vero. Quae sunt eveniet commodi repellat exercitationem
+          voluptate maxime nam quas doloremque accusamus adipisci, reprehenderit
+          debitis mollitia? Officiis dignissimos placeat autem accusamus sint
+          numquam est sequi sed, itaque quia possimus voluptatem excepturi! Eius
+          sunt autem rem nesciunt voluptate ducimus explicabo accusamus,
+          accusantium repudiandae officiis. Totam, natus ullam. Earum iste,
+          minus tempora iure impedit velit accusantium sint? Ab nostrum dolorum
+          culpa magni id totam quaerat doloribus esse repudiandae commodi harum
+          tenetur nemo laborum similique dignissimos molestias, eius ipsa. Id
+          voluptates nihil minus velit similique, molestiae nisi architecto
+          animi possimus atque qui quaerat minima illo deleniti nostrum sed quas
+          nulla eveniet voluptatibus, harum nobis dolorum tempora delectus et!
+          Quis?
         </p>
       </section>
     </main>
+    <footer></footer>
+    <script src="./index.js"></script>
   </body>
 </html>
