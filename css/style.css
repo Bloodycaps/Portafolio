@@ -1,3 +1,13 @@
+:root {
+  /* colors */
+  --red-wine: #8c030e;
+  --dark-red: #260104;
+  --medium-red: #730202;
+  --soft-red: #8c031c;
+  --scarlet-red: #40010d;
+  --black: #0d0d0d;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -15,13 +25,13 @@ body {
 
 a {
   text-decoration: none;
-  color: #0d0d0d;
+  color: var(--black);
 }
 
 header {
   width: 100%;
   height: 7rem;
-  background-color: #8c031c;
+  background-color: var(--soft-red);
 }
 
 header nav {
@@ -35,6 +45,7 @@ header .main-navbar {
 
 header .main-navbar .main-navbar-logo a {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -50,28 +61,148 @@ header .main-navbar .main-navbar-logo h2 {
   padding-left: 0.5rem;
 }
 
+.main-navbar div {
+  display: flex;
+}
+
 header .main-navbar .navbar-center-section {
   display: flex;
   justify-content: center;
   list-style: none;
   align-items: center;
+  font-weight: bold;
+  margin-right: 10rem;
 }
 
 .main-navbar .navbar-center-section a {
   cursor: pointer;
   margin: 1rem;
+
 }
 
 header .main-navbar .navbar-right-section {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    align-items: center;
-  }
-  header .main-navbar .navbar-right-section a{
-    margin-left: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  font-size: 2.3rem;
+}
+header .main-navbar .navbar-right-section a {
+  margin-left: 0.5rem;
+}
+header .main-navbar a {
+  padding: 1rem;
+}
+header .main-navbar a:hover,
+.nav-item_active {
+  background-color: var(--medium-red);
+  border-radius: 1rem;
+  color: white;
+  transition: 0.5s;
+  padding: 1rem;
+}
+
+.nav-toggle {
+  color: var(--black);
+  background: none;
+  border: none;
+  font-size: 3rem;
+  padding: 0 20px;
+  line-height: 60px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 7rem;
+    background-color: var(--soft-red);
   }
 
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header .main-navbar {
+    padding: 1rem;
+  }
+
+  header .main-navbar .main-navbar-logo a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  header .main-navbar .main-navbar-logo img {
+    width: 4.5rem;
+    height: auto;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+  }
+  header .main-navbar .main-navbar-logo h2 {
+    font-size: 2rem;
+    padding-left: 0.5rem;
+  }
+
+  .main-navbar .nav-menu {
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    background-color: var(--soft-red);
+    top: 7rem;
+    height: calc(100% - 7rem);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+  }
+
+  header .main-navbar .navbar-center-section {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+    margin: 0;
+  }
+  header .main-navbar .navbar-center-section li{
+    padding: 3rem 0;
+  }
+
+  
+  header .main-navbar .navbar-right-section {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    padding-top: 4rem;
+    font-size: 2.3rem;
+  }
+  header .main-navbar .navbar-right-section a {
+    margin-left: 0.5rem;
+  }
+  header .main-navbar a {
+    padding: 1rem;
+  }
+  .nav-item a:hover,
+  .nav-item_active
+   {
+    background-color: var(--medium-red);
+    border-radius: 1rem;
+    color: white;
+    transition: 0.5s;
+  }
+  .nav-toggle{
+    display: block;
+  }
+  .nav-menu_active{
+    left: 0;
+  }
+
+}
+/*
 main .home-section {
   width: 100%;
   height: 576px;
@@ -80,25 +211,21 @@ main .home-section {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
-main .home-section:before{
-    content: "";
-    background: rgba(255, 255, 255, 0.6);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
+main .home-section:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 main .home-section .home-section-container {
-    position: relative;
-    color: #0d0d0d;
-    text-align: center;
+  position: relative;
+  color: #0d0d0d;
+  text-align: center;
 }
-
-
-
-
+*/

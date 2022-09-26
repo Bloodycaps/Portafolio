@@ -13,7 +13,13 @@
       rel="stylesheet"
     />
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Danilo Cortés</title>
   </head>
@@ -22,35 +28,55 @@
       <nav class="main-navbar">
         <picture class="main-navbar-logo">
           <a href="">
-            <img src="./img/Logo.jpeg" alt="Logo" /> <h2>Bloodycaps</h2> 
+            <img src="./img/Logo.jpeg" alt="Logo" />
+            <h2>Bloodycaps</h2>
           </a>
         </picture>
-        <ul class="navbar-center-section">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Blog</a></li>
-        </ul>
-
-        <ul class="navbar-right-section">
-            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-github"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-        </ul>
+        <button class="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav-menu nav-menu_active">
+          <ul class="navbar-center-section">
+            <li class="nav-item nav-item_active"><a href="">Home</a></li>
+            <li class="nav-item"><a href="">About</a></li>
+            <li class="nav-item"><a href="">Projects</a></li>
+            <li class="nav-item"><a href="">Blog</a></li>
+          </ul>
+  
+          <ul class="navbar-right-section">
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
-        <section class="home-section">
-            <div class="home-section-container">
-                <h1>Danilo Cortes</h1>
-                <h2>I'm a FullStack Developer</h2><br>
-                <a href="#about"><i class="fa-solid fa-angle-down"></i></a>
-            </div>
-        </section>
-        <section id="about">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facere maxime praesentium officia, error molestias quaerat autem ipsa numquam consequatur nihil consequuntur ipsum incidunt ullam, accusantium maiores eaque at nemo?</p>
-        </section>
+      <section class="home-section">
+        <div class="home-section-container">
+          <h1>Danilo Cortes</h1>
+          <h2>I'm a FullStack Developer</h2>
+          <br />
+          <a href="#about"><i class="fa-solid fa-angle-down"></i></a>
+        </div>
+      </section>
+      <section id="about">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Exercitationem facere maxime praesentium officia, error molestias
+          quaerat autem ipsa numquam consequatur nihil consequuntur ipsum
+          incidunt ullam, accusantium maiores eaque at nemo?
+        </p>
+      </section>
     </main>
   </body>
 </html>
