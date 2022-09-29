@@ -1,10 +1,10 @@
 :root {
   /* colors */
-  --blue: #8D9FA6;
-  --soft-blue: #C1D4D9;
-  --white: #F2F2F2;
-  --soft-gray: #404040;
-  --hard-gray: #262626;
+  --primary-red: #8C030E;
+  --hard-red: #260104;
+  --scarlet-red: #8C031C;
+  --medium-red: #40010D;
+  --white: #FBF9FF;
   --black: #0d0d0d;
 }
 
@@ -33,8 +33,8 @@ header {
   width: 100%;
   height: 7rem;
   position: fixed;
-  background-color: var(--hard-gray);
-  color: var(--soft-blue);
+  background-color: var(--medium-red);
+  color: var(--white);
 }
 
 header nav {
@@ -69,7 +69,7 @@ header .main-navbar .main-navbar-logo h2 {
   width: 100%;
   position: fixed;
   left: 0;
-  background-color: var(--soft-gray);
+  background-color: var(--scarlet-red);
   top: 7rem;
   height: calc(100% - 7rem);
   overflow-y: auto;
@@ -106,9 +106,9 @@ header .main-navbar a {
 }
 .nav-item a:hover,
 .nav-item_active {
-  background-color: var(--blue);
+  background-color: var(--medium-red);
   border-radius: 1rem;
-  color: white;
+  color: var(--white);
   transition: all 0.5s;
 }
 .nav-toggle {
@@ -128,47 +128,82 @@ main {
 }
 
 .home-section {
-  width: 100%;
-  height: 604px;
-  background: #260104 url(../img/profile.jpg) center/ cover no-repeat;
   position: relative;
+  width: 100%;
+  height: auto;
+  margin:auto;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   z-index: -1;
 }
 
-.home-section::before {
-  content: "";
-  background: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  bottom: 0px;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-
-
 main .home-section .home-section-container {
-  position: relative;
   color: #0d0d0d;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
-main .home-section-container{
-  padding-top: 3rem;
-  
+main .home-section-container {
+  margin-top: 7rem;
+  padding-top: 7rem;
+  justify-content: center;
   align-items: center;
-
 }
 
-main .home-section-container .home-profile-img img{
-  width: 12rem;
-  height:12rem;
+
+
+main .home-section-container .home-profile-img img {
+  width: 20rem;
+  height: 20rem;
   margin-bottom: 3rem;
   border-radius: 50%;
 }
-main .home-section-container p{
-  margin-top: 3rem;
-  font-size: 1.7rem;
+
+main .home-section-container h1{
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+main .home-section-container h2 {
+  padding-bottom: 3rem;
+}
+
+main .home-section-container a{
+  color:var(--black);
+  font-size: 3rem;
+}
+main .home-section .home-footer {
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+main .home-section .home-footer img {
+  max-width: 100%;
+  height: 100%;
+}
+
+main .about-section{
+  background-color:var(--primary-red);
+  color:var(--white);
+  margin-top: -9.2rem;
+  padding-bottom: 24rem;
+  text-align: center;
+}
+main .about-section .about-section-container{
+  padding: 3rem;
+}
+
+.about-section .about-section-container h2{
+margin-bottom: 2.4rem;
+}
+
+main .blogs-section{
+  background-color: var(--scarlet-red);
+  color: var(--white);
+}
+
+.container{
+ padding: 2.4rem;
 }
