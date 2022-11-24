@@ -154,7 +154,7 @@ main .home-section-container {
 
 main .home-section-container .home-profile-img img {
   width: 20rem;
-  height: 20rem;
+  height: 25rem;
   margin-bottom: 3rem;
   border-radius: 50%;
 }
@@ -209,7 +209,7 @@ main .skills-section {
 }
 
 main .skills-section span {
-  font-size: 3.5rem;
+  font-size: 5rem;
 }
 main .skills-section h2 {
   margin: 3rem 0 1.2rem;
@@ -249,10 +249,28 @@ main .projects-section {
   color: var(--white);
 }
 
-main .blogs-section {
-}
-
 .container {
   margin: 3rem;
-  padding: 3rem;
+  padding-top: 3rem;
+}
+
+main .projects-section h2{
+  text-align: center;
+}
+
+main .projects-section h3{
+  text-align: center;
+  padding
+}
+
+
+main .projects-section .card {
+  
+}
+.projects-section .card .projects-card img{
+  width: 37rem;
+
+}
+
+main .blogs-section {
 }
