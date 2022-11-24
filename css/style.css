@@ -272,7 +272,7 @@ main .projects-section h3 {
   display: flex;
   justify-content: center;
 }
-.projects-section .card .projects-card .projects-links {
+.projects-section .card .projects-links {
   padding: 1rem;
   display:flex;
   justify-content: space-evenly;
