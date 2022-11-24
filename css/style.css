@@ -1,10 +1,10 @@
 :root {
   /* colors */
-  --primary-red: #8C030E;
+  --primary-red: #8c030e;
   --hard-red: #260104;
-  --scarlet-red: #8C031C;
-  --medium-red: #40010D;
-  --white: #FBF9FF;
+  --scarlet-red: #8c031c;
+  --medium-red: #40010d;
+  --white: #fbf9ff;
   --black: #0d0d0d;
 }
 
@@ -96,7 +96,7 @@ header .main-navbar .navbar-right-section {
   list-style: none;
   align-items: center;
   padding-top: 4rem;
-  font-size: 2.3rem;
+  font-size: 3.4rem;
 }
 header .main-navbar .navbar-right-section a {
   margin-left: 0.5rem;
@@ -131,7 +131,7 @@ main {
   position: relative;
   width: 100%;
   height: auto;
-  margin:auto;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,16 +152,14 @@ main .home-section-container {
   align-items: center;
 }
 
-
-
 main .home-section-container .home-profile-img img {
   width: 20rem;
-  height: 20rem;
+  height: 25rem;
   margin-bottom: 3rem;
   border-radius: 50%;
 }
 
-main .home-section-container h1{
+main .home-section-container h1 {
   font-size: 3rem;
   margin-bottom: 3rem;
 }
@@ -169,8 +167,8 @@ main .home-section-container h2 {
   padding-bottom: 3rem;
 }
 
-main .home-section-container a{
-  color:var(--black);
+main .home-section-container a {
+  color: var(--black);
   font-size: 3rem;
 }
 main .home-section .home-footer {
@@ -184,26 +182,98 @@ main .home-section .home-footer img {
   height: 100%;
 }
 
-main .about-section{
-  background-color:var(--primary-red);
-  color:var(--white);
+main .about-section {
+  background-color: var(--primary-red);
+  color: var(--white);
   margin-top: -9.2rem;
   padding-bottom: 24rem;
   text-align: center;
 }
-main .about-section .about-section-container{
+
+main .about-section .about-section-container {
   padding: 3rem;
+  font-size: 1.8rem;
+}
+.about-section .about-section-container h2 {
+  margin-bottom: 2.4rem;
+  font-size: 3.5rem;
 }
 
-.about-section .about-section-container h2{
-margin-bottom: 2.4rem;
+.about-section .about-section-container h3 {
+  margin-bottom: 2rem;
 }
 
-main .blogs-section{
+main .skills-section {
+  margin-top: -18rem;
+  padding: 2rem;
+}
+
+main .skills-section span {
+  font-size: 5rem;
+}
+main .skills-section h2 {
+  margin: 3rem 0 1.2rem;
+}
+
+main .skills-section .title {
+  margin: 3rem 0 1.2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-red);
+}
+
+.skills-section .container .skills-content li {
+  font-size: 1.8rem;
+  list-style: none;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.skills-section .container .skills-content i {
+  font-size: 3.4rem;
+}
+
+.skills-section .container .skills-content img {
+  width: 4rem;
+  height: auto;
+}
+
+main .skills-section .container {
+  background-color: var(--white);
+  border-radius: 2rem;
+  text-align: center;
+}
+
+main .projects-section {
   background-color: var(--scarlet-red);
   color: var(--white);
 }
 
-.container{
- padding: 2.4rem;
+.container {
+  margin: 3rem;
+  padding-top: 3rem;
+}
+
+main .projects-section h2 {
+  padding-top: 2rem;
+  font-size:3rem;
+  text-align: center;
+}
+
+main .projects-section h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.projects-section .card .projects-card img {
+  width: 37rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.projects-section .card .projects-links {
+  padding: 1rem;
+  display:flex;
+  justify-content: space-evenly;
 }
