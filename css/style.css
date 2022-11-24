@@ -229,7 +229,7 @@ main .skills-section .title {
   padding: 1rem;
 }
 
-.skills-section .container .skills-content i{
+.skills-section .container .skills-content i {
   font-size: 3.4rem;
 }
 
@@ -254,23 +254,26 @@ main .projects-section {
   padding-top: 3rem;
 }
 
-main .projects-section h2{
+main .projects-section h2 {
+  padding-top: 2rem;
+  font-size:3rem;
   text-align: center;
 }
 
-main .projects-section h3{
+main .projects-section h3 {
+  font-size: 2.5rem;
   text-align: center;
-  padding
+  padding: 2rem;
 }
 
-
-main .projects-section .card {
-  
-}
-.projects-section .card .projects-card img{
+.projects-section .card .projects-card img {
   width: 37rem;
-
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
 }
-
-main .blogs-section {
+.projects-section .card .projects-card .projects-links {
+  padding: 1rem;
+  display:flex;
+  justify-content: space-evenly;
 }
