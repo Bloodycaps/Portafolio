@@ -245,6 +245,7 @@ main .skills-section .container {
 }
 
 main .projects-section {
+  padding-top: 6rem;
   background-color: var(--scarlet-red);
   color: var(--white);
 }
@@ -255,7 +256,7 @@ main .projects-section {
 }
 
 main .projects-section h2 {
-  padding-top: 2rem;
+  padding-top: 3rem;
   font-size:3rem;
   text-align: center;
 }
