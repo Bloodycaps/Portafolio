@@ -84,11 +84,5 @@ header .main-navbar a {
   transition: none;
 }
 .nav-toggle {
-  color: var(--white);
-  background: none;
-  border: none;
-  font-size: 3rem;
-  padding: 0 20px;
-  line-height: 60px;
   display: none;
 }
