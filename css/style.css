@@ -246,7 +246,7 @@ main .skills-section .container {
 }
 
 main .projects-section {
-  padding-top: 6rem;
+  padding: 6rem 0;
   background-color: var(--scarlet-red);
   color: var(--white);
 }

@@ -218,9 +218,14 @@ main .projects-section {
   background-color: var(--scarlet-red);
   color: var(--white);
 }
+main .projects-section .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
 
 .container {
-  margin: 3rem;
+  margin: 1.5rem;
   padding-top: 3rem;
 }
 
@@ -236,6 +241,6 @@ main .projects-section h3 {
 }
 
 .projects-section .card .projects-card img {
-  width: 37rem;
+  width: 30rem;
   border-radius: 1rem;
 }
