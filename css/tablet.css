@@ -187,6 +187,12 @@ main .skills-section .title {
   font-weight: bold;
   color: var(--primary-red);
 }
+main .skills-section .container {
+  background-color: var(--white);
+  border-radius: 2rem;
+  text-align: center;
+}
+
 .skills-section .container .skills-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -206,12 +212,6 @@ main .skills-section .title {
 .skills-section .container .skills-content li img {
   width: auto;
   height: 5rem;
-}
-
-main .skills-section .container {
-  background-color: var(--white);
-  border-radius: 2rem;
-  text-align: center;
 }
 
 main .projects-section {
@@ -234,6 +234,7 @@ main .projects-section h3 {
   text-align: center;
   padding: 2rem;
 }
+
 .projects-section .card .projects-card {
   display: flex;
   justify-content: center;
