@@ -269,7 +269,8 @@ main .projects-section h3 {
 }
 
 .projects-section .card .projects-card img {
-  width: 37rem;
+  width: 370px;
+  height: 210px;
   border-radius: 1rem;
   display: flex;
   justify-content: center;
